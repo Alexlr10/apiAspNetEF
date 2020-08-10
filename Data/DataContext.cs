@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace apiAspNetEF.Data {
     public class DataContext: DbContext { //Representaçao do banco de dados em memoria
 
-        public DataContext(DbContextOptions<DataContext> options): base(options {
+        public DataContext(DbContextOptions<DataContext> options): base(options) {
 
         }
 
